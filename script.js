@@ -5,8 +5,8 @@ function addTodo(event) {
     todolist.innerHTML += `
         <li>
             ${todofield.value}
-            <input type="checkbox" checked>
+            <input type="checkbox">
         </li>
     `;
-    todofield.value = ''; // Leert das Eingabefeld
+    todofield.value = '';
 }
