@@ -8,5 +8,6 @@ function addTodo(event) {
             <input type="checkbox">
         </li>
     `;
+    console.log(todofield.value);
     todofield.value = '';
 }
